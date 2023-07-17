@@ -486,3 +486,46 @@ new-product-text a {
   letter-spacing: 0.5px;
   font-weight: 700;
 }
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  grid-gap: 15px;
+}
+
+.logo-container img {
+  height: 50px;
+  object-position: center;
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: 0.3;
+  transition: all ease 0.3s;
+}
+
+.logo-container img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* grid 2 */
+
+.product-grid-box2 {
+  background-color: #faf4e4;
+}
+
+.product-grid-box3 {
+  background-color: #fbeae3;
+}
+
+.product-grid-2 {
+  max-width: 1200px;
+  width: 90%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
