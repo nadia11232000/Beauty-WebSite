@@ -653,3 +653,20 @@ footer {
   color: #252525;
   font-size: 0.9rem;
 }
+
+/* Product page */
+
+#product_details {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  max-width: 1000px;
+  width: 90%;
+  margin: 30px auto 50px auto;
+}
+
+.d-product-img {
+  border: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
